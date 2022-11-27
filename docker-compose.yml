@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  codedamnportfolioprojecthtml5:
+    image: codedamnportfolioprojecthtml5
+    build:
+      context: .
+      dockerfile: ./Dockerfile
